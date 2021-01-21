@@ -8,5 +8,29 @@ namespace Lab08_Collections
         {
             Console.WriteLine("Hello World!");
         }
+
+        static void Library()
+        {
+            
+        }
+
+        static void BookBag()
+        {
+
+        }
+
+        static void LoadBooks()
+        {
+            Book book = new Lab08_Collections.Book();
+            book.Title = "What are we even doing?";
+            book.Author = "Mike";
+            book.Genre = Books.GenreType.Horror;
+        }
+
+        static void UserInterface()
+        {
+
+
+        }
     }
 }
